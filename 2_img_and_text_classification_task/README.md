@@ -29,7 +29,7 @@ The solution should contain:
 ############################################
 
 For **Image Classification** used existing **dataset from kaggle** that contains 90 different 
-animal classes. For base model used **MobileNetV2** (light-wight model, pre-trained on ImageNet).
+animal classes. For base model used **MobileNetV2** (light-weight model, pre-trained on ImageNet).
 
 For **Text Classification** used custom dataset from **text_classification/prepare_dataset.py**, 
 created for 10 animal classes. For base model used **distilbert-base-uncased** (light-weight model).
@@ -44,9 +44,6 @@ To run only user input prediction:
 1. Download pretrained NER model using **[this link](https://drive.google.com/file/d/1piFIcSIhDCeo_byadtmTdi1NJvny7-vD/view?usp=drive_link)** and unzip it
 (could not upload it to github because of the size - 3.9GB raw, 2.8GB zipped).
 2. Run **main.py** to verify if animal from user text and image input is matching.
-
-To check results on the pretrained-models, please run only step 5.
-You can enter your text and pass your image url to verify on new example.
 
 Important: 
 1. Although image classification trained on 90 animal classes, 
